@@ -1,5 +1,5 @@
 {
-  "name": "webpack-templater-three.js",
+  "name": "powerup-effect-three.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,8 +15,10 @@
   },
   "dependencies": {
     "lodash": "^4.17.15",
-    "three": "^0.123.0",
+    "three": "0.133.1",
     "webpack-dev-server": "^3.11.0",
-    "webpack-glsl-loader": "^1.0.1"
+    "webpack-glsl-loader": "^1.0.1",
+    "three-nebula": "10.0.2",
+    "@babel/runtime": "7.15.4"
   }
 }
